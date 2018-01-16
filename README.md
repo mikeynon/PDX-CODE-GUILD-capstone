@@ -78,21 +78,7 @@ Access Key:
 
 
 
-SPECIFIC FUNCTIONALITY
 
-
-If there is any actions your app needs to take in the background describe each of them and how they change the underlying data your app saves.
-
-Pick the minimum feature set for your product to work.
-Everything else should go in the “further work” section.
-
-
-DATA MODEL
-What are the persistent “nouns” you need to save across pages in your project MVP?
-What do they represent?
-
-We’ll be using a relational database which models things like a spreadsheet.
-There are fixed fields and every instance
 
 
 SUBMISSION
