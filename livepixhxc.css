@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 200px;
+  color: #fff;
+  overflow: hidden;
+  background: black;
+}
+.item {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+  flex-basis: 0;
+  transition: flex-grow .1s;
+  background-image:url("https://usa.yamaha.com/files/drum_sets_1200x480_929f57203573f25ad6c6924da465211c.jpg");
+}
+
+.item:first-child {
+  margin-left: 0px;
+}
+.item:last-child {
+  margin-right: -100px;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 200px);
+  margin-left: -100px;
+  background-attachment: fixed;
+  display: block;
+}
+.item:hover {
+  flex-grow: 3;
+  transition: flex-grow .3s;
+}

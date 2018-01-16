@@ -1,0 +1,20 @@
+//database for of users who can submit scrape values//
+
+function UserAccount (email, password) {
+    this.email=email
+    this.password=password
+    this.newSubmit = function (submitNew) {
+        if (this.balance - amount > 0) {
+        this.balance -= amount;
+            console.log( this.email[::@] + ", Thanks for your submission."
+        }
+        else {
+        console.log("This couldnt be added to the list.")
+        }
+     }
+
+    User-list {
+    [ ]
+
+    }
+}
